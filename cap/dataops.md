@@ -89,8 +89,7 @@ Status page:
 
 - Uptime of Azure Datafactory service is shows in Azure Service Availbility dashboard.
 
-- Data Flow is an area need more details.
--
+- Metrics for data flows include sinkProcessingTime, number of rows written to each sink and rows read from each source. More information can be found [here](https://docs.microsoft.com/en-us/azure/data-factory/concepts-data-flow-monitoring).
 ```
 ADFActivityRun 
 | where  OperationName == "dataflow1 - Succeeded"
